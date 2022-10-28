@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "d556bcb3-0b58-4437-a53c-26a516d3c289",
+		"name": "E-commerce Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WP-Json",
+			"_postman_id": "6ffe6a87-6830-4292-a664-685d2e1bfbda",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ovcharski.com/shop/wp-json/"
+			},
+			"response": []
+		},
+		{
+			"name": "Statuses",
+			"_postman_id": "72c6f80b-7b96-4db3-8d6f-e16d3f37e016",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ovcharski.com/shop/wp-json/wp/v2/statuses"
+			},
+			"response": []
+		},
+		{
+			"name": "Categories",
+			"_postman_id": "8eebdb72-6c8c-4125-846f-3cd77e7238b3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ovcharski.com/shop/wp-json/wp/v2/categories"
+			},
+			"response": []
+		},
+		{
+			"name": "Tags",
+			"_postman_id": "bf329bd5-e816-46d1-8830-0b3d46f2b3e8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ovcharski.com/shop/wp-json/wp/v2/tags"
+			},
+			"response": []
+		},
+		{
+			"name": "Types",
+			"_postman_id": "55ba5882-716b-4639-8132-86fbb79c7ef1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ovcharski.com/shop/wp-json/wp/v2/types"
+			},
+			"response": []
+		},
+		{
+			"name": "Posts",
+			"_postman_id": "83ef7852-ce81-4c8f-b2b9-1a3914224fac",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ovcharski.com/shop/wp-json/wp/v2/posts"
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"_postman_id": "880c3bfc-7766-4c8d-8865-c9498c21ce74",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ovcharski.com/shop/wp-json/wp/v2/search"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "ab0da1a6-c369-49d8-ae1c-684fbf71c199",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "ca723ddc-aa58-4a36-8ef2-9cfc9afb2e02",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
