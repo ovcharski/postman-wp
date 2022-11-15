@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "WP-Json",
-			"_postman_id": "6ffe6a87-6830-4292-a664-685d2e1bfbda",
+			"id": "6ffe6a87-6830-4292-a664-685d2e1bfbda",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "Statuses",
-			"_postman_id": "72c6f80b-7b96-4db3-8d6f-e16d3f37e016",
+			"id": "72c6f80b-7b96-4db3-8d6f-e16d3f37e016",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "Categories",
-			"_postman_id": "8eebdb72-6c8c-4125-846f-3cd77e7238b3",
+			"id": "8eebdb72-6c8c-4125-846f-3cd77e7238b3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "Tags",
-			"_postman_id": "bf329bd5-e816-46d1-8830-0b3d46f2b3e8",
+			"id": "bf329bd5-e816-46d1-8830-0b3d46f2b3e8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -59,7 +59,7 @@
 		},
 		{
 			"name": "Types",
-			"_postman_id": "55ba5882-716b-4639-8132-86fbb79c7ef1",
+			"id": "55ba5882-716b-4639-8132-86fbb79c7ef1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -72,7 +72,7 @@
 		},
 		{
 			"name": "Posts",
-			"_postman_id": "83ef7852-ce81-4c8f-b2b9-1a3914224fac",
+			"id": "83ef7852-ce81-4c8f-b2b9-1a3914224fac",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -85,7 +85,7 @@
 		},
 		{
 			"name": "Search",
-			"_postman_id": "880c3bfc-7766-4c8d-8865-c9498c21ce74",
+			"id": "880c3bfc-7766-4c8d-8865-c9498c21ce74",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -93,6 +93,39 @@
 				"method": "GET",
 				"header": [],
 				"url": "https://ovcharski.com/shop/wp-json/wp/v2/search"
+			},
+			"response": []
+		},
+		{
+			"name": "Posts Links",
+			"id": "8c6b84e9-c84c-4aeb-84f6-ba1ae0370b23",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ovcharski.com/shop/wp-json/wp/v2/posts?_fields=link",
+					"protocol": "https",
+					"host": [
+						"ovcharski",
+						"com"
+					],
+					"path": [
+						"shop",
+						"wp-json",
+						"wp",
+						"v2",
+						"posts"
+					],
+					"query": [
+						{
+							"key": "_fields",
+							"value": "link"
+						}
+					]
+				}
 			},
 			"response": []
 		}
