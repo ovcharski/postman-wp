@@ -126,7 +126,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://ovcharski.com/shop/wp-json/wp/v2/posts?_fields=id,link",
+					"raw": "https://ovcharski.com/shop/wp-json/wp/v2/posts?_fields=id,link,slug",
 					"protocol": "https",
 					"host": [
 						"ovcharski",
@@ -142,7 +142,7 @@
 					"query": [
 						{
 							"key": "_fields",
-							"value": "id,link"
+							"value": "id,link,slug"
 						}
 					]
 				}
